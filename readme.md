@@ -16,10 +16,6 @@ This repository has two objectives:
     * [sync_devices_condition_variable.cpp](sync_devices_condition_variable.cpp)
 8. What are deadlocks and how do they happen? [deadlock.cpp](deadlock.cpp)
 
-### Upcoming
-* Consumer producer pattern for threads
-* Using threadpool to avoid creating threads
-
 ### Some common threading mistakes and notes
 * Trying to join a detached thread or thread that has already been joined. Under uncertainty, use thread member "joinable" to check if thread can be joined or not.
 * Trying to acquire a mutex twice.
